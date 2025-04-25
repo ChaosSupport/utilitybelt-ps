@@ -1,0 +1,20 @@
+# Ignore PowerShell history and environment files
+*.pshistory
+*.psenv
+
+# Ignore compiled output or temp files
+*.log
+*.tmp
+*.bak
+
+# VS Code settings and workspace-specific config
+.vscode/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore secrets or local-only config (if you use them)
+secrets.json
+*.secret.*
