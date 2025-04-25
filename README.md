@@ -1,16 +1,35 @@
 # UtilityBelt-PS
 
-A curated collection of PowerShell scripts and functions built to make IT support, automation, and system administration faster and smarter. Kind of like a personal Bat-belt, no spandex required.
+A growing collection of tools, scripts, and modules to simplify IT support, automation, and system management tasks.
 
-## Features
-- Everyday admin utilities
-- Automation helpers
-- Modular and easy to use
+This repo is built to scale: each component lives in its own folder with a dedicated README and a clean separation of concerns.
 
-## Coming Soon
-- Script catalog
-- Usage examples
-- Setup instructions
+## 📁 Modules
 
-> 📂 Work in progress. First code drop coming soon.
- 
+### [PowerShell Toolkit](./utilityprocs)
+
+A reusable PowerShell module designed to support IT automation and diagnostics with clean logging, graceful exits, and data import helpers.
+
+Includes:
+
+- `Write-Log` – structured logging with timestamps and formatting
+- `Exit-Nicely` – graceful script termination with final log output
+- `Read-Ref` – reads and logs data from CSV reference files
+- `Set-Path` – sets a scoped, timestamped log path based on script location
+
+📖 [View full documentation](./utilityprocs/README.md)
+
+
+
+## 🧭 Roadmap
+
+- [x] Modular PowerShell release
+- [ ] Automate jumplists for consistency between devices
+- [ ] Clear OneNote cache
+- [ ] Check event logs for the UPS's last test date
+
+## 👤 Author
+
+**Christopher "Rowdy" Yates**  
+IT Support Specialist • Chaos Administrator • Aspiring Automation Wrangler
+> "Support is chaos, but the logs shouldn't be."
